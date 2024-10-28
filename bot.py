@@ -63,6 +63,6 @@ async def guess(ctx, number: int):
         await ctx.send(f"Incorrecto. El número era {secret_number}. Intenta de nuevo.")    
 
 
-bot.run("TOKEN")  # Reemplaza 'TU_TOKEN_AQUÍ' con tu token real
+bot.run("TU_TOKEN_AQUÍ")  # Reemplaza 'TU_TOKEN_AQUÍ' con tu token real
 
 
